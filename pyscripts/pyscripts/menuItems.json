@@ -1,0 +1,1339 @@
+{
+    "resistor": {
+        "itemName": "Resistors",
+        "iconName": "resistor_icon.png",
+        "sortByDefault": "value",
+        "filterOptions": {
+            "value": {
+                "itemName": "Resistance",
+                "unit": "Ω",
+                "type": "Text",
+                "canRange": true,
+                "isRange": false,
+                "canPrefix": true,
+                "min": "",
+                "max": ""
+            },
+            "tolerance": {
+                "itemName": "Tolerance",
+                "unit": "%",
+                "type": "Text"
+            },
+            "power": {
+                "itemName": "Power",
+                "unit": "W",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "package": {
+                "itemName": "Package",
+                "unit": "",
+                "type": "Radio",
+                "options": [
+                    "Through-hole",
+                    "0402",
+                    "0603",
+                    "0805",
+                    "1206"
+                ]
+            }
+        },
+        "entryOptions": {
+            "location": {
+                "itemName": "Location",
+                "unit": "",
+                "type": "Text",
+                "value": ""
+            },
+            "value": {
+                "itemName": "Resistance",
+                "unit": "Ω",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "tolerance": {
+                "itemName": "Tolerance",
+                "unit": "%",
+                "type": "Text"
+            },
+            "power": {
+                "itemName": "Power",
+                "unit": "W",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "package": {
+                "itemName": "Package",
+                "unit": "",
+                "type": "Radio",
+                "options": [
+                    "Through-hole",
+                    "0402",
+                    "0603",
+                    "0805",
+                    "1206"
+                ],
+                "value": "Through-hole"
+            },
+            "datasheet": {
+                "itemName": "Datasheet",
+                "unit": "",
+                "type": "Link",
+                "canPrefix": true
+            }
+        },
+        "metaOptions": {
+            "distributor": {
+                "itemName": "Distributor",
+                "unit": "",
+                "type": "Text"
+            },
+            "part_number": {
+                "itemName": "Part Number",
+                "unit": "",
+                "type": "Text"
+            },
+            "quantity": {
+                "itemName": "Quantity",
+                "unit": "",
+                "type": "Text"
+            }
+        }
+    },
+    "capacitor": {
+        "itemName": "Capacitors",
+        "iconName": "capacitor_icon.png",
+        "sortByDefault": "value",
+        "filterOptions": {
+            "value": {
+                "itemName": "Capacitance",
+                "unit": "F",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "material": {
+                "itemName": "Material",
+                "unit": "",
+                "type": "Dropdown",
+                "options": [
+                    "Ceramic",
+                    "Electrolytic",
+                    "Tantalum"
+                ],
+                "value": "Ceramic"
+            },
+            "tolerance": {
+                "itemName": "Tolerance",
+                "unit": "%",
+                "type": "Text"
+            },
+            "voltage_rating": {
+                "itemName": "Voltage Rating",
+                "unit": "V",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "package": {
+                "itemName": "Package",
+                "unit": "",
+                "type": "Radio",
+                "options": [
+                    "Through-hole",
+                    "0402",
+                    "0603",
+                    "0805",
+                    "1206"
+                ]
+            }
+        },
+        "entryOptions": {
+            "location": {
+                "itemName": "Location",
+                "unit": "",
+                "type": "Text"
+            },
+            "value": {
+                "itemName": "Capacitance",
+                "unit": "F",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "material": {
+                "itemName": "Material",
+                "unit": "",
+                "type": "Dropdown",
+                "options": [
+                    "Ceramic",
+                    "Electrolytic",
+                    "Tantalum"
+                ],
+                "value": "Ceramic"
+            },
+            "tolerance": {
+                "itemName": "Tolerance",
+                "unit": "%",
+                "type": "Text"
+            },
+            "voltage_rating": {
+                "itemName": "Voltage Rating",
+                "unit": "V",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "package": {
+                "itemName": "Package",
+                "unit": "",
+                "type": "Radio",
+                "options": [
+                    "Through-hole",
+                    "0402",
+                    "0603",
+                    "0805",
+                    "1206"
+                ],
+                "value": "Through-hole"
+            },
+            "datasheet": {
+                "itemName": "Datasheet",
+                "unit": "",
+                "type": "Link",
+                "canPrefix": true
+            }
+        },
+        "metaOptions": {
+            "distributor": {
+                "itemName": "Distributor",
+                "unit": "",
+                "type": "Text"
+            },
+            "part_number": {
+                "itemName": "Part Number",
+                "unit": "",
+                "type": "Text"
+            },
+            "quantity": {
+                "itemName": "Quantity",
+                "unit": "",
+                "type": "Text"
+            }
+        }
+    },
+    "inductor": {
+        "itemName": "Inductors",
+        "iconName": "inductor_icon.png",
+        "sortByDefault": "value",
+        "filterOptions": {
+            "value": {
+                "itemName": "Inductance",
+                "unit": "H",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "tolerance": {
+                "itemName": "Tolerance",
+                "unit": "%",
+                "type": "Text"
+            },
+            "power": {
+                "itemName": "Power",
+                "unit": "W",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "saturation_current": {
+                "itemName": "Saturation Current",
+                "unit": "A",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "package": {
+                "itemName": "Package",
+                "unit": "",
+                "type": "Radio",
+                "options": [
+                    "Through-hole",
+                    "Surface Mount"
+                ],
+                "value": "Through-hole"
+            }
+        },
+        "entryOptions": {
+            "location": {
+                "itemName": "Location",
+                "unit": "",
+                "type": "Text"
+            },
+            "value": {
+                "itemName": "Inductance",
+                "unit": "H",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "tolerance": {
+                "itemName": "Tolerance",
+                "unit": "%",
+                "type": "Text"
+            },
+            "power": {
+                "itemName": "Power",
+                "unit": "W",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "saturation_current": {
+                "itemName": "Saturation Current",
+                "unit": "A",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "package": {
+                "itemName": "Package",
+                "unit": "",
+                "type": "Radio",
+                "options": [
+                    "Through-hole",
+                    "Surface Mount"
+                ],
+                "value": "Through-hole"
+            },
+            "datasheet": {
+                "itemName": "Datasheet",
+                "unit": "",
+                "type": "Link",
+                "canPrefix": true
+            }
+        },
+        "metaOptions": {
+            "distributor": {
+                "itemName": "Distributor",
+                "unit": "",
+                "type": "Text"
+            },
+            "part_number": {
+                "itemName": "Part Number",
+                "unit": "",
+                "type": "Text"
+            },
+            "quantity": {
+                "itemName": "Quantity",
+                "unit": "",
+                "type": "Text"
+            }
+        }
+    },
+    "bjt": {
+        "itemName": "BJT's",
+        "iconName": "bjt_icon.png",
+        "sortByDefault": "part_number",
+        "filterOptions": {
+            "part_number": {
+                "itemName": "Part Number",
+                "unit": "",
+                "type": "Text"
+            },
+            "doping": {
+                "itemName": "Doping",
+                "unit": "",
+                "type": "Radio",
+                "options": [
+                    "NPN",
+                    "PNP"
+                ],
+                "value": "NPN"
+            },
+            "beta_value": {
+                "itemName": "Beta Value",
+                "unit": "",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "max_ic": {
+                "itemName": "Max Ic",
+                "unit": "A",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "max_vce": {
+                "itemName": "Max Vce",
+                "unit": "V",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "max_vbe": {
+                "itemName": "Max Vbe",
+                "unit": "V",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "power": {
+                "itemName": "Power",
+                "unit": "W",
+                "type": "Text",
+                "canPrefix": true
+            }
+        },
+        "entryOptions": {
+            "location": {
+                "itemName": "Location",
+                "unit": "",
+                "type": "Text"
+            },
+            "part_number": {
+                "itemName": "Part Number",
+                "unit": "",
+                "type": "Text"
+            },
+            "doping": {
+                "itemName": "Doping",
+                "unit": "",
+                "type": "Radio",
+                "options": [
+                    "NPN",
+                    "PNP"
+                ],
+                "value": "NPN"
+            },
+            "beta_value": {
+                "itemName": "Beta Value",
+                "unit": "",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "max_ic": {
+                "itemName": "Max Ic",
+                "unit": "A",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "max_vce": {
+                "itemName": "Max Vce",
+                "unit": "V",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "max_vbe": {
+                "itemName": "Max Vbe",
+                "unit": "V",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "power": {
+                "itemName": "Power",
+                "unit": "W",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "datasheet": {
+                "itemName": "Datasheet",
+                "unit": "",
+                "type": "Link",
+                "canPrefix": true
+            }
+        },
+        "metaOptions": {
+            "distributor": {
+                "itemName": "Distributor",
+                "unit": "",
+                "type": "Text"
+            },
+            "part_number": {
+                "itemName": "Part Number",
+                "unit": "",
+                "type": "Text"
+            },
+            "quantity": {
+                "itemName": "Quantity",
+                "unit": "",
+                "type": "Text"
+            }
+        }
+    },
+    "fet": {
+        "itemName": "FET's",
+        "iconName": "fet_icon.png",
+        "sortByDefault": "part_number",
+        "filterOptions": {
+            "part_number": {
+                "itemName": "Part Number",
+                "unit": "",
+                "type": "Text"
+            },
+            "doping": {
+                "itemName": "Doping",
+                "unit": "",
+                "type": "Radio",
+                "options": [
+                    "N-Channel",
+                    "P-Channel"
+                ],
+                "value": "N-Channel"
+            },
+            "gain": {
+                "itemName": "Gain",
+                "unit": "",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "max_id": {
+                "itemName": "Max Id",
+                "unit": "A",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "max_vds": {
+                "itemName": "Max Vds",
+                "unit": "V",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "max_vgs": {
+                "itemName": "Max Vgs",
+                "unit": "V",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "power": {
+                "itemName": "Power",
+                "unit": "W",
+                "type": "Text",
+                "canPrefix": true
+            }
+        },
+        "entryOptions": {
+            "location": {
+                "itemName": "Location",
+                "unit": "",
+                "type": "Text"
+            },
+            "part_number": {
+                "itemName": "Part Number",
+                "unit": "",
+                "type": "Text"
+            },
+            "doping": {
+                "itemName": "Doping",
+                "unit": "",
+                "type": "Radio",
+                "options": [
+                    "N-Channel",
+                    "P-Channel"
+                ],
+                "value": "N-Channel"
+            },
+            "gain": {
+                "itemName": "Gain",
+                "unit": "",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "max_id": {
+                "itemName": "Max Id",
+                "unit": "A",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "max_vds": {
+                "itemName": "Max Vds",
+                "unit": "V",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "max_vgs": {
+                "itemName": "Max Vgs",
+                "unit": "V",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "power": {
+                "itemName": "Power",
+                "unit": "W",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "datasheet": {
+                "itemName": "Datasheet",
+                "unit": "",
+                "type": "Link",
+                "canPrefix": true
+            }
+        },
+        "metaOptions": {
+            "distributor": {
+                "itemName": "Distributor",
+                "unit": "",
+                "type": "Text"
+            },
+            "part_number": {
+                "itemName": "Part Number",
+                "unit": "",
+                "type": "Text"
+            },
+            "quantity": {
+                "itemName": "Quantity",
+                "unit": "",
+                "type": "Text"
+            }
+        }
+    },
+    "opamp": {
+        "itemName": "Op-Amps",
+        "iconName": "amplifier_icon.png",
+        "sortByDefault": "part_number",
+        "filterOptions": {
+            "part_number": {
+                "itemName": "Part Number",
+                "unit": "",
+                "type": "Text"
+            },
+            "number_in_package": {
+                "itemName": "Number In Package",
+                "unit": "",
+                "type": "Text"
+            },
+            "gain_bandwidth": {
+                "itemName": "Gain-Bandwidth",
+                "unit": "Hz",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "slew_rate": {
+                "itemName": "Slew Rate",
+                "unit": "V/µs",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "package": {
+                "itemName": "Package",
+                "unit": "",
+                "type": "Radio",
+                "options": [
+                    "Dual-Sided",
+                    "Single-Sided"
+                ],
+                "value": "Dual-Sided"
+            },
+            "max_output_current": {
+                "itemName": "Max Output Current",
+                "unit": "A",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "max_overhead": {
+                "itemName": "Max Overhead",
+                "unit": "V",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "common_mode": {
+                "itemName": "Common Mode",
+                "unit": "V",
+                "type": "Text",
+                "canPrefix": true
+            }
+        },
+        "entryOptions": {
+            "location": {
+                "itemName": "Location",
+                "unit": "",
+                "type": "Text"
+            },
+            "part_number": {
+                "itemName": "Part Number",
+                "unit": "",
+                "type": "Text"
+            },
+            "number_in_package": {
+                "itemName": "Number In Package",
+                "unit": "",
+                "type": "Text"
+            },
+            "gain_bandwidth": {
+                "itemName": "Gain-Bandwidth",
+                "unit": "Hz",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "slew": {
+                "itemName": "Slew Rate",
+                "unit": "V/µs",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "package": {
+                "itemName": "Package",
+                "unit": "",
+                "type": "Radio",
+                "options": [
+                    "Dual-Sided",
+                    "Single-Sided"
+                ],
+                "value": "Dual-Sided"
+            },
+            "max_output_current": {
+                "itemName": "Max Output Current",
+                "unit": "A",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "max_overhead": {
+                "itemName": "Max Overhead",
+                "unit": "V",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "common_mode": {
+                "itemName": "Common Mode",
+                "unit": "V",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "datasheet": {
+                "itemName": "Datasheet",
+                "unit": "",
+                "type": "Link",
+                "canPrefix": true
+            }
+        },
+        "metaOptions": {
+            "distributor": {
+                "itemName": "Distributor",
+                "unit": "",
+                "type": "Text"
+            },
+            "part_number": {
+                "itemName": "Part Number",
+                "unit": "",
+                "type": "Text"
+            },
+            "quantity": {
+                "itemName": "Quantity",
+                "unit": "",
+                "type": "Text"
+            }
+        }
+    },
+    "switch": {
+        "itemName": "Switches",
+        "iconName": "switch_icon.png",
+        "sortByDefault": "use",
+        "filterOptions": {
+            "use": {
+                "itemName": "Function",
+                "unit": "",
+                "type": "Text"
+            },
+            "current_rating": {
+                "itemName": "Current Rating",
+                "unit": "A",
+                "type": "Text",
+                "canPrefix": true
+            }
+        },
+        "entryOptions": {
+            "location": {
+                "itemName": "Location",
+                "unit": "",
+                "type": "Text"
+            },
+            "use": {
+                "itemName": "Function",
+                "unit": "",
+                "type": "Text"
+            },
+            "current_rating": {
+                "itemName": "Current Rating",
+                "unit": "A",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "datasheet": {
+                "itemName": "Datasheet",
+                "unit": "",
+                "type": "Link",
+                "canPrefix": true
+            }
+        },
+        "metaOptions": {
+            "distributor": {
+                "itemName": "Distributor",
+                "unit": "",
+                "type": "Text"
+            },
+            "part_number": {
+                "itemName": "Part Number",
+                "unit": "",
+                "type": "Text"
+            },
+            "quantity": {
+                "itemName": "Quantity",
+                "unit": "",
+                "type": "Text"
+            }
+        }
+    },
+    "diode": {
+        "itemName": "Diodes",
+        "iconName": "diode_icon.png",
+        "sortByDefault": "part_number",
+        "filterOptions": {
+            "part_number": {
+                "itemName": "Part Number",
+                "unit": "",
+                "type": "Text"
+            },
+            "type": {
+                "itemName": "Type",
+                "unit": "",
+                "type": "Text"
+            },
+            "forward_voltage_drop": {
+                "itemName": "Forward Voltage Drop",
+                "unit": "V",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "breakdown_voltage": {
+                "itemName": "Breakdown Voltage",
+                "unit": "V",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "max_current": {
+                "itemName": "Max Current",
+                "unit": "A",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "power": {
+                "itemName": "Power",
+                "unit": "W",
+                "type": "Text",
+                "canPrefix": true
+            }
+        },
+        "entryOptions": {
+            "location": {
+                "itemName": "Location",
+                "unit": "",
+                "type": "Text"
+            },
+            "part_number": {
+                "itemName": "Part Number",
+                "unit": "",
+                "type": "Text"
+            },
+            "type": {
+                "itemName": "Type",
+                "unit": "",
+                "type": "Text"
+            },
+            "forward_voltage_drop": {
+                "itemName": "Forward Voltage Drop",
+                "unit": "V",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "breakdown_voltage": {
+                "itemName": "Breakdown Voltage",
+                "unit": "V",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "max_current": {
+                "itemName": "Max Current",
+                "unit": "A",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "power": {
+                "itemName": "Power",
+                "unit": "W",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "datasheet": {
+                "itemName": "Datasheet",
+                "unit": "",
+                "type": "Link",
+                "canPrefix": true
+            }
+        },
+        "metaOptions": {
+            "distributor": {
+                "itemName": "Distributor",
+                "unit": "",
+                "type": "Text"
+            },
+            "part_number": {
+                "itemName": "Part Number",
+                "unit": "",
+                "type": "Text"
+            },
+            "quantity": {
+                "itemName": "Quantity",
+                "unit": "",
+                "type": "Text"
+            }
+        }
+    },
+    "intcirc": {
+        "itemName": "Integrated Circuits",
+        "iconName": "ic_icon.png",
+        "sortByDefault": "part_number",
+        "filterOptions": {
+            "part_number": {
+                "itemName": "Part Number",
+                "unit": "",
+                "type": "Text"
+            },
+            "category": {
+                "itemName": "Category",
+                "unit": "",
+                "type": "Text"
+            },
+            "voltage": {
+                "itemName": "Voltage",
+                "unit": "V",
+                "type": "Text",
+                "canPrefix": true
+            }
+        },
+        "entryOptions": {
+            "location": {
+                "itemName": "Location",
+                "unit": "",
+                "type": "Text"
+            },
+            "part_number": {
+                "itemName": "Part Number",
+                "unit": "",
+                "type": "Text"
+            },
+            "category": {
+                "itemName": "Category",
+                "unit": "",
+                "type": "Text"
+            },
+            "voltage": {
+                "itemName": "Voltage",
+                "unit": "V",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "datasheet": {
+                "itemName": "Datasheet",
+                "unit": "",
+                "type": "Link",
+                "canPrefix": true
+            }
+        },
+        "metaOptions": {
+            "distributor": {
+                "itemName": "Distributor",
+                "unit": "",
+                "type": "Text"
+            },
+            "part_number": {
+                "itemName": "Part Number",
+                "unit": "",
+                "type": "Text"
+            },
+            "quantity": {
+                "itemName": "Quantity",
+                "unit": "",
+                "type": "Text"
+            }
+        }
+    },
+    "connector": {
+        "itemName": "Connectors",
+        "iconName": "ic_icon.png",
+        "sortByDefault": "type",
+        "filterOptions": {
+            "num_terminals": {
+                "itemName": "Number of Terminals",
+                "unit": "",
+                "type": "Text"
+            },
+            "type": {
+                "itemName": "Type",
+                "unit": "",
+                "type": "Text"
+            },
+            "gauge": {
+                "itemName": "Wire Gauge Range",
+                "unit": "V",
+                "type": "Text",
+                "canPrefix": false
+            }
+        },
+        "entryOptions": {
+            "num_terminals": {
+                "itemName": "Number of Terminals",
+                "unit": "",
+                "type": "Text",
+                "canPrefix": false
+            },
+            "type": {
+                "itemName": "Type",
+                "unit": "",
+                "type": "Text",
+                "canPrefix": false
+            },
+            "gauge": {
+                "itemName": "Wire Gauge Range",
+                "unit": "ga",
+                "type": "Text",
+                "canPrefix": false
+            }
+        },
+        "metaOptions": {}
+    },
+    "linreg": {
+        "itemName": "Linear Regulators",
+        "iconName": "regulator_icon.png",
+        "sortByDefault": "part_number",
+        "filterOptions": {
+            "part_number": {
+                "itemName": "Part Number",
+                "unit": "",
+                "type": "Text"
+            },
+            "category": {
+                "itemName": "Category",
+                "unit": "",
+                "type": "Radio",
+                "options": [
+                    "Fixed",
+                    "Adjustable"
+                ],
+                "value": "Fixed"
+            },
+            "voutmax": {
+                "itemName": "Max Vout",
+                "unit": "V",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "vdropout": {
+                "itemName": "Dropout",
+                "unit": "V",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "power": {
+                "itemName": "Power",
+                "unit": "W",
+                "type": "Text",
+                "canPrefix": true
+            }
+        },
+        "entryOptions": {
+            "location": {
+                "itemName": "Location",
+                "unit": "",
+                "type": "Text"
+            },
+            "part_number": {
+                "itemName": "Part Number",
+                "unit": "",
+                "type": "Text"
+            },
+            "category": {
+                "itemName": "Category",
+                "unit": "",
+                "type": "Radio",
+                "options": [
+                    "Fixed",
+                    "Adjustable"
+                ],
+                "value": "Fixed"
+            },
+            "voutmax": {
+                "itemName": "Max Vout",
+                "unit": "V",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "vdropout": {
+                "itemName": "Dropout",
+                "unit": "V",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "power": {
+                "itemName": "Power",
+                "unit": "W",
+                "type": "Text",
+                "canPrefix": true
+            },
+            "datasheet": {
+                "itemName": "Datasheet",
+                "unit": "",
+                "type": "Link",
+                "canPrefix": true
+            }
+        },
+        "metaOptions": {
+            "distributor": {
+                "itemName": "Distributor",
+                "unit": "",
+                "type": "Text"
+            },
+            "part_number": {
+                "itemName": "Part Number",
+                "unit": "",
+                "type": "Text"
+            },
+            "quantity": {
+                "itemName": "Quantity",
+                "unit": "",
+                "type": "Text"
+            }
+        }
+    },
+    "equipment": {
+        "itemName": "Equipment",
+        "needsLogin": true,
+        "iconName": "equipment_icon.png",
+        "sortByDefault": "model",
+        "isType": "",
+        "entryOptions": {},
+        "filterOptions": {},
+        "hasTypes": {
+            "digital multimeter": {
+                "itemName": "DMM's",
+                "entryOptions": {
+                    "manufacturer": {
+                        "itemName": "Manufacturer",
+                        "type": "Text",
+                        "unit": ""
+                    },
+                    "model_number": {
+                        "itemName": "Model Number",
+                        "type": "Text",
+                        "unit": ""
+                    },
+                    "serial_number": {
+                        "itemName": "Serial Number",
+                        "type": "Text",
+                        "unit": ""
+                    },
+                    "resolution": {
+                        "itemName": "Resolution",
+                        "type": "Text",
+                        "unit": ""
+                    },
+                    "accuracy": {
+                        "itemName": "Accuracy",
+                        "type": "Text",
+                        "unit": ""
+                    },
+                    "is_checkoutable": {
+                        "itemName": "Checkoutable",
+                        "type": "Text",
+                        "unit": ""
+                    },
+                    "print_barcode": {
+                        "itemName": "Print barcode",
+                        "type": "Button",
+                        "unit": ""
+                    }
+                },
+                "filterOptions": {},
+                "metaOptions": {}
+            },
+            "oscilloscope": {
+                "itemName": "Oscilloscopes",
+                "entryOptions": {
+                    "manufacturer": {
+                        "itemName": "Manufacturer",
+                        "type": "Text",
+                        "unit": ""
+                    },
+                    "model_number": {
+                        "itemName": "Model Number",
+                        "type": "Text",
+                        "unit": ""
+                    },
+                    "serial_number": {
+                        "itemName": "Serial Number",
+                        "type": "Text",
+                        "unit": ""
+                    },
+                    "number_channels": {
+                        "itemName": "Number of Channels",
+                        "type": "Text",
+                        "unit": ""
+                    },
+                    "number_digital_channels": {
+                        "itemName": "Number of Digital Channels",
+                        "type": "Text",
+                        "unit": ""
+                    },
+                    "frequency": {
+                        "itemName": "Frequency",
+                        "type": "Text",
+                        "canPrefix": true,
+                        "unit": "Hz"
+                    },
+                    "sample_frequency": {
+                        "itemName": "Sample Frequency",
+                        "type": "Text",
+                        "canPrefix": true,
+                        "unit": "Hz"
+                    },
+                    "is_checkoutable": {
+                        "itemName": "Checkoutable",
+                        "type": "Text",
+                        "unit": ""
+                    },
+                    "print_barcode": {
+                        "itemName": "Print barcode",
+                        "type": "Button",
+                        "unit": ""
+                    }
+                },
+                "filterOptions": {},
+                "metaOptions": {}
+            },
+            "function generator": {
+                "itemName": "Function Generators",
+                "entryOptions": {
+                    "manufacturer": {
+                        "itemName": "Manufacturer",
+                        "type": "Text",
+                        "unit": ""
+                    },
+                    "model_number": {
+                        "itemName": "Model Number",
+                        "type": "Text",
+                        "unit": ""
+                    },
+                    "serial_number": {
+                        "itemName": "Serial Number",
+                        "type": "Text",
+                        "unit": ""
+                    },
+                    "num_channels": {
+                        "itemName": "Number of Channels",
+                        "type": "Text",
+                        "unit": ""
+                    },
+                    "max_frequency": {
+                        "itemName": "Frequency",
+                        "type": "Text",
+                        "canPrefix": true,
+                        "unit": "Hz"
+                    },
+                    "max_current": {
+                        "itemName": "Max Current",
+                        "type": "Text",
+                        "canPrefix": true,
+                        "unit": "A"
+                    },
+                    "is_checkoutable": {
+                        "itemName": "Checkoutable",
+                        "type": "Text",
+                        "unit": ""
+                    },
+                    "print_barcode": {
+                        "itemName": "Print barcode",
+                        "type": "Button",
+                        "unit": ""
+                    }
+                },
+                "filterOptions": {},
+                "metaOptions": {}
+            },
+            "power supply": {
+                "itemName": "Power Supply",
+                "entryOptions": {
+                    "manufacturer": {
+                        "itemName": "Manufacturer",
+                        "type": "Text",
+                        "unit": ""
+                    },
+                    "model_number": {
+                        "itemName": "Model Number",
+                        "type": "Text",
+                        "unit": ""
+                    },
+                    "serial_number": {
+                        "itemName": "Serial Number",
+                        "type": "Text",
+                        "unit": ""
+                    },
+                    "max_power": {
+                        "itemName": "Max Power",
+                        "type": "Text",
+                        "unit": "W",
+                        "canPrefix": true
+                    },
+                    "max_current": {
+                        "itemName": "Max Current",
+                        "type": "Text",
+                        "unit": "A",
+                        "canPrefix": true
+                    },
+                    "max_voltage": {
+                        "itemName": "Max Voltage",
+                        "type": "Text",
+                        "canPrefix": true,
+                        "unit": "V"
+                    },
+                    "ripple": {
+                        "itemName": "Ripple Voltage",
+                        "type": "Text",
+                        "canPrefix": true,
+                        "unit": "V"
+                    },
+                    "is_checkoutable": {
+                        "itemName": "Checkoutable",
+                        "type": "Text",
+                        "unit": ""
+                    },
+                    "print_barcode": {
+                        "itemName": "Print barcode",
+                        "type": "Button",
+                        "unit": ""
+                    }
+                },
+                "filterOptions": {},
+                "metaOptions": {}
+            },
+            "lcr_meter": {
+                "itemName": "LCR Meter",
+                "entryOptions": {
+                    "manufacturer": {
+                        "itemName": "Manufacturer",
+                        "type": "Text",
+                        "unit": ""
+                    },
+                    "model_number": {
+                        "itemName": "Model Number",
+                        "type": "Text",
+                        "unit": ""
+                    },
+                    "serial_number": {
+                        "itemName": "Serial Number",
+                        "type": "Text",
+                        "unit": ""
+                    },
+                    "is_checkoutable": {
+                        "itemName": "Checkoutable",
+                        "type": "Text",
+                        "unit": ""
+                    },
+                    "print_barcode": {
+                        "itemName": "Print barcode",
+                        "type": "Button",
+                        "unit": ""
+                    }
+                },
+                "filterOptions": {},
+                "metaOptions": {}
+            }
+        }
+    }
+}

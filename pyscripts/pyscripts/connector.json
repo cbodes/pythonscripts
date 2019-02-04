@@ -1,0 +1,60 @@
+{
+  "description": "Model for connector",
+  "$ref": "#definitions/connector",
+  "definitions": {
+    "connector": {
+      "type": "object",
+      "properties": {
+        "meta": {
+          "type": "object",
+          "properties": {
+            "part_number": {
+              "type": "string"
+            },
+            "distributor": {
+              "type": "string"
+            },
+            "quantity": {
+              "type": "number"
+            }
+          }
+        },
+        "num_terminals": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "type": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "gauge": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "required": [],
+      "title": "connector"
+    }
+  }
+}

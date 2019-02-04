@@ -1,0 +1,126 @@
+{
+  "description": "Model for fet",
+  "$ref": "#definitions/fet",
+  "definitions": {
+    "fet": {
+      "type": "object",
+      "properties": {
+        "meta": {
+          "type": "object",
+          "properties": {
+            "part_number": {
+              "type": "string"
+            },
+            "distributor": {
+              "type": "string"
+            },
+            "quantity": {
+              "type": "number"
+            }
+          }
+        },
+        "location": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "part_number": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "doping": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "gain": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "max_id": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "max_vds": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "max_vgs": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "power": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "datasheet": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "required": [],
+      "title": "fet"
+    }
+  }
+}

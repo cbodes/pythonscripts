@@ -1,0 +1,115 @@
+{
+  "description": "Model for diode",
+  "$ref": "#definitions/diode",
+  "definitions": {
+    "diode": {
+      "type": "object",
+      "properties": {
+        "meta": {
+          "type": "object",
+          "properties": {
+            "part_number": {
+              "type": "string"
+            },
+            "distributor": {
+              "type": "string"
+            },
+            "quantity": {
+              "type": "number"
+            }
+          }
+        },
+        "location": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "part_number": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "type": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "forward_voltage_drop": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "breakdown_voltage": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "max_current": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "power": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "datasheet": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "required": [],
+      "title": "diode"
+    }
+  }
+}

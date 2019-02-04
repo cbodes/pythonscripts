@@ -1,0 +1,104 @@
+{
+  "description": "Model for linreg",
+  "$ref": "#definitions/linreg",
+  "definitions": {
+    "linreg": {
+      "type": "object",
+      "properties": {
+        "meta": {
+          "type": "object",
+          "properties": {
+            "part_number": {
+              "type": "string"
+            },
+            "distributor": {
+              "type": "string"
+            },
+            "quantity": {
+              "type": "number"
+            }
+          }
+        },
+        "location": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "part_number": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "category": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "voutmax": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "vdropout": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "power": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "datasheet": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "required": [],
+      "title": "linreg"
+    }
+  }
+}

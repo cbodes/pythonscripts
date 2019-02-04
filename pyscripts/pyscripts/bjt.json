@@ -1,0 +1,126 @@
+{
+  "description": "Model for bjt",
+  "$ref": "#definitions/bjt",
+  "definitions": {
+    "bjt": {
+      "type": "object",
+      "properties": {
+        "meta": {
+          "type": "object",
+          "properties": {
+            "part_number": {
+              "type": "string"
+            },
+            "distributor": {
+              "type": "string"
+            },
+            "quantity": {
+              "type": "number"
+            }
+          }
+        },
+        "location": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "part_number": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "doping": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "beta_value": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "max_ic": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "max_vce": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "max_vbe": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "power": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        },
+        "datasheet": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "strValue": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "required": [],
+      "title": "bjt"
+    }
+  }
+}

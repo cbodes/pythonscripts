@@ -1,0 +1,27 @@
+{
+  "description": "Model for equipment",
+  "$ref": "#definitions/equipment",
+  "definitions": {
+    "equipment": {
+      "type": "object",
+      "properties": {
+        "meta": {
+          "type": "object",
+          "properties": {
+            "part_number": {
+              "type": "string"
+            },
+            "distributor": {
+              "type": "string"
+            },
+            "quantity": {
+              "type": "number"
+            }
+          }
+        }
+      },
+      "required": [],
+      "title": "equipment"
+    }
+  }
+}
